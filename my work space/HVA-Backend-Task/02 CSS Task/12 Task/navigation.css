@@ -1,0 +1,30 @@
+li {
+    list-style: none;
+}
+
+.nav-bar {
+    background-color: lightgray;
+    padding: 30px;
+}
+
+#diff-link {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 25px;
+    color: darkmagenta;
+}
+
+li::before {
+    content: "@";
+    color: red;
+    margin: 20px;
+}
+
+ul>li {
+    background-color: aquamarine;
+    border: 2px solid lightcyan;
+}
+
+.nav-bar > ul > li ul > li + li{
+    font-size: 50px;
+}
